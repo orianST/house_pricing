@@ -5,10 +5,10 @@ This project investigates the factors influencing house prices in  Bengaluru Ind
 
 Data Preparation
 1.	Data Cleaning:
-o	Missing values were identified and removed.
-o	Outliers were identified and, removed.
+	Missing values were identified and removed.
+	Outliers were identified and, removed.
 2.	Feature Engineering:
-o	Categorical features were encoded using one-hot encoding to transform them into numerical representations suitable for regression models.
+	Categorical features were encoded using one-hot encoding to transform them into numerical representations suitable for regression models.
 
 Model Training and Evaluation
 Three regression models were employed to create house price prediction models:
