@@ -20,6 +20,7 @@ Three regression models were employed to create house price prediction models:
 The performance of each model was evaluated using  Root Mean Squared Error (RMSE) and R-squared (R²)
 
 Feature Importance Analysis
+
 Feature importance analysis was conducted to identify the features that significantly impact the prediction of house prices. This helps understand which factors buyers prioritize when considering property value.
 
 To explore this EDA and examin the code for prediction of prices in  Bengaluru , simply open the provided Python notebook file(s) in your preferred environment.
