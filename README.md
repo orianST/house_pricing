@@ -1,39 +1,26 @@
-This repository contains a Jupyter Notebook that performs an analysis of house prices. The notebook `house1 (3).ipynb` includes data processing, visualization, and various statistical techniques to understand the factors affecting house prices.
-## Contents
-- `house1 (3).ipynb`: Jupyter Notebook containing the analysis.
-- `data/`: Directory containing the datasets used in the analysis (if any).
-- `images/`: Directory containing the generated visualizations (if any).
-## Getting Started
-To get a local copy up and running, follow these simple steps.
-### Prerequisites
-Ensure you have the following installed on your local machine:
-- Python 3.x
-- Jupyter Notebook
-- Necessary Python libraries (see below)
-### Installation
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/house-price-analysis.git
-    cd house-price-analysis
-    ```
-2. **Install the required Python libraries:**
-    You can install the required libraries using `pip`:
-    ```bash
-    pip install -r requirements.txt
-    ```
-    If `requirements.txt` is not provided, you can install the common libraries manually:
-    ```bash
-    pip install pandas numpy matplotlib seaborn scikit-learn
-    ```
-3. **Launch Jupyter Notebook:**
-    ```bash
-    jupyter notebook
-    ```
-4. Open `house1 (3).ipynb` in the Jupyter Notebook interface.
-## Usage
-Follow the steps in the notebook to understand the data processing and analysis performed. The notebook includes sections for:
-1. Data Import
-2. Data Cleaning
-3. Exploratory Data Analysis
-4. Feature Engineering
-5. Model Building and Evaluation
+Project: Bengaluru_House_Data in India
+
+Introduction
+This project investigates the factors influencing house prices in  Bengaluru India and aims to develop accurate prediction models using regression techniques. We utilize a dataset comprising various features like location, size, and other relevant attributes.
+
+Data Preparation
+1.	Data Cleaning:
+o	Missing values were identified and removed.
+o	Outliers were identified and, removed.
+2.	Feature Engineering:
+o	Categorical features were encoded using one-hot encoding to transform them into numerical representations suitable for regression models.
+
+Model Training and Evaluation
+Three regression models were employed to create house price prediction models:
+1.	Linear Regression (LR) 
+2.	Random Forest Regression (RFR)
+3.	Gradient Boosting Regression (GBR)
+
+   Evaluation Metrics:
+The performance of each model was evaluated using  Root Mean Squared Error (RMSE) and R-squared (R²)
+
+Feature Importance Analysis
+Feature importance analysis was conducted to identify the features that significantly impact the prediction of house prices. This helps understand which factors buyers prioritize when considering property value.
+
+To explore this EDA and examin the code for prediction of prices in  Bengaluru , simply open the provided Python notebook file(s) in your preferred environment.
+
