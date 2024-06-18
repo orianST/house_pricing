@@ -16,6 +16,11 @@ Three regression models were employed to create house price prediction models:
 2.	Random Forest Regression (RFR)
 3.	Gradient Boosting Regression (GBR)
 
+
+
+![image](https://github.com/orianST/house_pricing/assets/170711903/d87b653f-b488-4017-9257-6424987bfcb3)
+
+
    Evaluation Metrics:
 The performance of each model was evaluated using  Root Mean Squared Error (RMSE) and R-squared (R²)
 
